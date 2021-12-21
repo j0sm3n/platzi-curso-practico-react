@@ -4,12 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-<<<<<<< HEAD
     "start": "webpack serve --open",
     "build": "webpack --mode production"
-=======
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> 061167de2e99d27a4c42ff3df5633ab79b50f992
   },
   "keywords": [
     "react",
@@ -18,7 +14,6 @@
   "author": "Jose Antonio Mendoza <josmen@gmail.com>",
   "license": "MIT",
   "dependencies": {
-<<<<<<< HEAD
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
@@ -30,9 +25,12 @@
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
-=======
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
->>>>>>> 061167de2e99d27a4c42ff3df5633ab79b50f992
+  },
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "mini-css-extract-plugin": "^2.4.5",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1"
   }
 }
