@@ -1,18 +1,18 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from '../containers/Layout';
-import NewPassword from '../pages/NewPassword';
-import Login from '../pages/Login';
-import CreateAccount from '../pages/CreateAccount';
-import MyAccount from '../pages/MyAccount';
-import PasswordRecovery from '../pages/PasswordRecovery';
-import Home from '../pages/Home';
-import NotFound from '../pages/NotFound';
-import SendEmail from '../pages/SendEmail';
-import Checkout from '../pages/Checkout';
-import Orders from '../pages/Orders';
+import Layout from '@containers/Layout';
+import NewPassword from '@pages/NewPassword';
+import Login from '@pages/Login';
+import CreateAccount from '@pages/CreateAccount';
+import MyAccount from '@pages/MyAccount';
+import PasswordRecovery from '@pages/PasswordRecovery';
+import Home from '@pages/Home';
+import NotFound from '@pages/NotFound';
+import SendEmail from '@pages/SendEmail';
+import Checkout from '@pages/Checkout';
+import Orders from '@pages/Orders';
 
-import '../styles/global.css'
+import '@styles/global.css'
 
 const App = () => {
     return (
